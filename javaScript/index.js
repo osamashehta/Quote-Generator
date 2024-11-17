@@ -15,17 +15,17 @@ var quotes = [
     image: "images/Albert Einstein.jpg",
   },
   {
-    name: "Marcus Tullius Cicero",
+    name: "Marcus Tullius",
     quote: `“A room without books is like a body without a soul.”`,
     image: "images/Marcus Tullius Cicero.jpg",
   },
   {
-    name: "Bernard M. Baruch",
+    name: "Bernard Baruch",
     quote: `“Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”`,
     image: "images/Bernard M. Baruch.jpg",
   },
   {
-    name: "William W. Purkey",
+    name: "William Purkey",
     quote: `“You've gotta dance like there's nobody watching, Love like you'll never be hurt, Sing like there's nobody listening, And live like it's heaven on earth.”`,
     image: "images/William W. Purkey.jpg",
   },
@@ -120,7 +120,7 @@ var quotes = [
     image: "images/Samuel Palmer.jpg",
   },
   {
-    name: "Henry David Thoreau",
+    name: "Henry David",
     quote: `“The cost of a thing is that amount of life which must be exchanged for it.”`,
     image: "images/Henry David Thoreau.jpg",
   },
@@ -175,7 +175,7 @@ var quotes = [
   },
 
   {
-    name: "Benjamin Franklin",
+    name: "Benjamin Franklin ",
     quote: `“Energy and persistence conquer all things.”`,
     image: "images/Benjamin Franklin.jpg",
   },
@@ -186,7 +186,7 @@ var quotes = [
     image: "images/Dr. Seuss.jpg",
   },
   {
-    name: "Mark Twain",
+    name: "Mark Twain ",
     quote: `“The secret of getting ahead is getting started.”`,
     image: "images/Mark Twain.jpg",
   },
@@ -210,10 +210,10 @@ var number = Math.trunc(Math.random() * quotes.length);
 content = `<p id="quote" class="fw-bold w-100">
             ${quotes[number].quote}
           </p>
-          <div id="author" class=" d-flex  align-items-center">
+          <div id="author" class="  d-flex  align-items-center justify-content-center w-100">
             
-            <div class="img  me-3">
-              <img src="${quotes[number].image}"  alt="Oscar Wilde" class="w-100 ">
+            <div class="img me-3 ">
+              <img src="${quotes[number].image}"  alt="${quotes[number].image}" class="w-100 ">
             </div>
             <span id="author-name">
             ${quotes[number].name}
@@ -232,9 +232,9 @@ document.querySelector(".c-btn").addEventListener("click", function () {
     content = `<p id="quote" class="fw-bold w-100">
             ${quotes[number].quote}
           </p>
-          <div id="author" class=" d-flex  flex-wrap align-items-center">
+          <div id="author" class="   d-flex  flex-wrap align-items-center justify-content-center w-100">
             
-            <div class="img  me-3">
+            <div class="img  me-3 ">
               <img src="${quotes[number].image}"  alt="${quotes[number].name}" class="w-100 ">
             </div>
             <span id="author-name"  >
