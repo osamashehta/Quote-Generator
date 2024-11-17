@@ -11,6 +11,7 @@ A simple and elegant Quote Generator built using JavaScript, HTML, and CSS. This
 ## Technologies Used
 - **HTML5**: For the structure of the web page.
 - **CSS3**: For styling and responsive design.
+- **Bootstrap 5**: For responsive layout and pre-designed components.
 - **JavaScript**: For functionality and interactivity.
   
 ![HTML5 Badge](https://img.shields.io/badge/HTML5-orange?logo=html5)
