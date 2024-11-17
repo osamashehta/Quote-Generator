@@ -1,0 +1,20 @@
+body{
+    background-color: #5272EE;
+}
+
+#c-card {
+background-color: #fff;
+}
+
+.img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #DC3545;
+}
+
+#author-name{
+    font-size: 16px;
+    font-weight: bold;
+}
